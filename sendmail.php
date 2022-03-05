@@ -13,7 +13,7 @@
 	//От кого письмо
 	$mail->setFrom('irmysyuz@gmail.com', 'Ира С');
 	//Кому отправить
-	$mail->addAddress('i.syuzeva@doktornarabote.ru');
+	$mail->addAddress('irmysyuz@gmail.com');
 	//Тема письма
 	$mail->Subject = 'Форма отправки';
 
